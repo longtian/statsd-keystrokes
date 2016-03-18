@@ -1,0 +1,31 @@
+{
+  "name": "statsd-keystrokes",
+  "version": "0.0.0",
+  "description": "Log keystrokes statics to statsd",
+  "main": "index.js",
+  "scripts": {
+    "test": "node bin/statsd-keystrokes"
+  },
+  "preferGlobal": true,
+  "os": [
+    "linux"
+  ],
+  "bin": {
+    "statsd-keystrokes": "./bin/statsd-keystrokes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wyvernnot/statsd-keystrokes.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wyvernnot/statsd-keystrokes/issues"
+  },
+  "homepage": "https://github.com/wyvernnot/statsd-keystrokes#readme",
+  "dependencies": {
+    "keycode": "^2.1.1",
+    "oneapm-ci-sdk": "0.0.1",
+    "yargs": "^4.3.1"
+  }
+}

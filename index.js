@@ -1,7 +1,7 @@
 var keycode = require('keycode');
 var StatsD = require('oneapm-ci-sdk').StatsD;
 var util = require('./lib');
-var statsd = new StatsD('127.0.0.1', 8251);
+var statsd = null;
 var rules = require('./lib/rules');
 
 var statics = util.read();
@@ -10,7 +10,7 @@ console.log('read=', statics);
 var tick = function () {
   util.write(statics);
   Object.keys(statics).forEach(function (key) {
-    statsd.gauge(`ergonomics.${key}`, statics[key]);
+    statsd && statsd.gauge(`ergonomics.${key}`, statics[key]);
   });
 }
 
@@ -27,11 +27,9 @@ var processLine = function (line) {
   });
 }
 
-exports.initWithDeviceIDs = function (devices) {
-  if (!devices) {
-    devices = [9, 10];
-  }
-  devices.forEach(function (id) {
+exports.init = function (argv) {
+  statsd = new StatsD('127.0.0.1', 8251);
+  argv.i.forEach(function (id) {
     util.registerDevice(id, processLine);
   })
   setInterval(tick, 5000);

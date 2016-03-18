@@ -3,6 +3,25 @@
 
 Log keystrokes statics to statsd
 
+## Table of Contents
+
+- [Prerequisite](#prerequisite)
+- [Install](#install)
+- [Runing](#runing)
+- [Test Environment](#test-environment)
+- Options
+  - [xev](#xev)
+  - [xinput](#xinput)
+  - [input-utils](#input-utils)
+- [Reference](#reference)
+
+## Prerequisite
+
+At least one StatsD server is installed
+
+- [StatsD](https://www.npmjs.com/package/statsd)
+- [CloudInsight(Chinese)](http://docs-ci.oneapm.com/)
+
 ## Install
 
 ```
@@ -15,14 +34,7 @@ npm install statsd-keystrokes -g
 statsd-keystrokes -i 9 -i 10
 ```
 
-## TOC
 
-- [Test Environment](#test-environment)
-- Options
-  - [xev](#xev)
-  - [xinput](#xinput)
-  - [input-utils](#input-utils)
-- [Reference](#reference)
 
 ## Test Environment
 

@@ -1,14 +1,28 @@
 # statsd-keystrokes
+[![](https://img.shields.io/npm/v/statsd-keystrokes.svg)](https://www.npmjs.com/package/statsd-keystrokes)
+
 Log keystrokes statics to statsd
+
+## Install
+
+```
+npm install statsd-keystrokes -g
+```
+
+## Runing
+
+```
+statsd-keystrokes -i 9 -i 10
+```
 
 ## TOC
 
-- [Test Environment](#Test Environment)
-- [Options](#Options)
+- [Test Environment](#test-environment)
+- Options
   - [xev](#xev)
   - [xinput](#xinput)
   - [input-utils](#input-utils)
-- [Reference](#Reference)
+- [Reference](#reference)
 
 ## Test Environment
 

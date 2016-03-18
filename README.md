@@ -1,17 +1,22 @@
 # statsd-keystrokes
 Log keystrokes statics to statsd
 
-## Test Requirement
+## TOC
+
+- [Test Environment](#Test Environment)
+- [Options](#Options)
+  - [xev](#xev)
+  - [xinput](#xinput)
+  - [input-utils](#input-utils)
+- [Reference](#Reference)
+
+## Test Environment
 
 - Ubuntu
 
-## TOC
+## Options
 
-- [xev](#xev)
-- [xinput](#xinput)
-- [input-utils](#input-utils)
-
-## xev
+### xev
 
 1\. Listen on all x events
 
@@ -236,7 +241,7 @@ PropertyNotify event, serial 23, synthetic NO, window 0x5800048,
 
 4\. parsing events in step 2 and send to statsd
 
-## xinput
+### xinput
 
 ```
 xinput list
@@ -418,8 +423,11 @@ sudo input-events 2
 
 ## Reference
 
-http://stackoverflow.com/questions/3831908/how-can-i-statistic-my-key-press-frequency-and-count
-
-http://unix.stackexchange.com/questions/56213/log-number-of-keyboard-hits%20googlrasdasd
-
-https://github.com/forsberg/kbdcounter/blob/master/src/xlib.py
+- https://github.com/sidorares/node-x11
+- http://stackoverflow.com/questions/3831908/how-can-i-statistic-my-key-press-frequency-and-count
+- http://unix.stackexchange.com/questions/56213/log-number-of-keyboard-hits%20googlrasdasd
+- https://github.com/forsberg/kbdcounter/blob/master/src/xlib.py
+- https://github.com/JosePedroDias/x-windows
+- https://github.com/JosePedroDias/x-windows
+- https://github.com/hash-bang/Node-X11-Keyboard
+- http://magcius.github.io/xplain/article/

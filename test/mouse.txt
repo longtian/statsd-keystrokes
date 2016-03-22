@@ -1,0 +1,84 @@
+motion a[0]=320 a[1]=958
+motion a[0]=316 a[1]=965
+motion a[0]=314 a[1]=969
+motion a[0]=310 a[1]=975
+motion a[0]=307 a[1]=980
+motion a[0]=305 a[1]=983
+motion a[0]=302 a[1]=988
+motion a[0]=300 a[1]=990
+motion a[0]=298
+motion a[0]=296 a[1]=992
+motion a[0]=295
+motion a[0]=294 a[1]=991
+motion a[1]=990
+motion a[1]=988
+motion a[0]=295 a[1]=987
+motion a[0]=297 a[1]=985
+motion a[0]=299 a[1]=984
+motion a[0]=303 a[1]=982
+motion a[0]=304 a[1]=981
+motion a[0]=306 a[1]=980
+motion a[0]=309 a[1]=977
+motion a[0]=311 a[1]=975
+motion a[0]=314 a[1]=972
+motion a[0]=315 a[1]=968
+motion a[0]=318 a[1]=965
+motion a[0]=319 a[1]=962
+motion a[0]=322 a[1]=958
+motion a[0]=323 a[1]=956
+motion a[0]=324 a[1]=953
+motion a[0]=328 a[1]=950
+motion a[0]=329 a[1]=949
+motion a[0]=330 a[1]=948
+motion a[0]=331 a[1]=947
+motion a[0]=333 a[1]=946
+motion a[0]=336
+motion a[0]=337 a[1]=945
+motion a[0]=338
+motion a[0]=339
+motion a[0]=340 a[1]=944
+motion a[0]=342 a[1]=943
+motion a[0]=344 a[1]=941
+motion a[0]=349 a[1]=940
+motion a[0]=354 a[1]=937
+motion a[0]=361 a[1]=934
+motion a[0]=368 a[1]=930
+motion a[0]=376 a[1]=926
+motion a[0]=383 a[1]=922
+motion a[0]=389 a[1]=919
+motion a[0]=397 a[1]=915
+motion a[0]=403 a[1]=910
+motion a[0]=408 a[1]=905
+motion a[0]=415 a[1]=899
+motion a[0]=419 a[1]=894
+motion a[0]=422 a[1]=889
+motion a[0]=424 a[1]=885
+motion a[0]=425 a[1]=882
+motion a[0]=427 a[1]=878
+motion a[0]=428 a[1]=875
+motion a[0]=430 a[1]=871
+motion a[0]=434 a[1]=866
+motion a[0]=439 a[1]=858
+motion a[0]=443 a[1]=852
+motion a[0]=447 a[1]=846
+motion a[0]=449 a[1]=841
+motion a[0]=451 a[1]=837
+motion a[0]=453 a[1]=835
+motion a[1]=833
+motion a[0]=454 a[1]=832
+button press   1
+motion a[0]=453 a[1]=831
+motion a[0]=452 a[1]=830
+motion a[0]=450 a[1]=829
+motion a[0]=448 a[1]=827
+motion a[0]=447 a[1]=826
+motion a[0]=446 a[1]=825
+motion a[0]=445 a[1]=824
+motion a[0]=443
+motion a[0]=442
+motion a[0]=440 a[1]=822
+motion a[0]=438
+motion a[0]=437
+motion a[0]=436
+motion a[0]=435
+motion a[0]=433
